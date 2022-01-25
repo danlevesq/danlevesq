@@ -1,0 +1,227 @@
+
+
+#my{
+zoom: 100%;
+}
+
+img.logo {
+	height: 15vh;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 0px;
+	transition-duration: 0.3s;
+	vertical-align: middle;
+	filter: grayscale(75%);
+	transform: scale(1) rotate(0turn);
+
+}
+
+img.logo:hover {
+	filter: grayscale(0%);
+	transform: scale(1.25) rotate(0.09turn);
+	transition-duration: 0.3s;
+}
+
+
+
+div.bg-content {
+	background-color: rgba(255, 255, 255, 0.55);
+	border-radius: 10px;
+	position: auto;
+	margin-top: 2vh;
+	margin-bottom: 20px;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	display: inline-block;
+	padding: 10px 20px 10px 30px;
+  }
+
+  div.bg-content p {
+	color: #000000;
+	font-family: 'Corben', cursive;
+	font-size: 0.9em;
+	opacity: 1;
+	text-align: left;
+}
+
+div.bg-content p span {
+	margin-right: 1px;
+}
+
+div.bg-links {
+	display: block;
+}
+
+div.bg-links p {
+	font-family: 'Corben', cursive;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.55);
+}
+
+div.bg-links p a {
+	display: inline-block;
+	color: #ffffff;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 5px 15px 5px 15px;
+	border-radius: 10px;
+}
+
+div.bg-links p a:hover{
+	background-color: #5da4eb;
+
+}
+
+div.bg-title {
+	margin-top: 3vh;
+	margin-bottom: 0vh;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px 0px 0px;
+	width: auto;
+}
+
+div.bg-title2 {
+	margin-top: 3vh;
+	margin-bottom: 0vh;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px 0px 0px;
+	width: auto;
+}
+
+.bg-title h1 {
+	overflow: hidden; 
+	border-right: .15em solid #ffffff; 
+	white-space: nowrap; 
+	margin: 0 auto; 
+	letter-spacing: .05em; 
+	animation: 
+	  typing 4s steps(40, end),
+	  blink-caret 0.75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: #ffffff; }
+  }
+
+body {
+	background-image: url("ebb-background.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-attachment: fixed;
+	width: auto;
+	background-size: cover;
+	background-color: #ffffff;
+  	position: relative;
+	text-align: center;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+
+footer {
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+	position: fixed;
+	bottom: 0;
+	vertical-align: text-bottom;
+	text-align: center;
+	z-index: 1;
+}
+
+footer p{
+	color: #ffffff;
+	font-family: 'Corben', cursive;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+footer p a{
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+}
+
+footer p a:hover{
+	background-color: #5da4eb;
+
+}
+
+
+@media only screen and (min-width: 1400px){
+
+}
+
+@media only screen and (min-width: 1200px){
+
+}
+
+@media only screen and (min-width: 993px){
+
+	div.bg-title2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 992px){
+
+body{
+	background-image: url("ebb-background.jpg");
+	height: auto;
+  	background-position: center;
+	margin: auto;
+	max-width: 100%;
+}
+div.bg-content {
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	padding: 0px 10px 0px 15px;
+	width: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+h1 {
+	font-size: 18px;
+}
+
+img.logo {
+	filter: grayscale(0%);
+	height: 8vh;
+}
+
+div.bg-links p a {
+	font-size: 14px;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.bg-title {
+	display: none;
+}
+div.bg-title2{
+	display: inline-block;
+}
+}
+
